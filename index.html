@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock (jQuery)</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="timer">
+  <div class="timerTimeShow">20 : 00</div>
+  <div class="timesUp">
+    <p>Time's up! Ready for a break?</p>
+    <button class="startRestTime">READY!</button>
+  </div>
+  <div class="timesReady">
+    <p>Time's up! Ready to work?</p>
+    <button class="startWorkTime">READY!</button>
+  </div>
+  <div class="timerTimeSet">
+    <div class="setWorkTime">
+      <p>Work For</p>
+      <input class="workTime" type="number" value="20"/>
+      <p>Mins</p>
+    </div>
+    <div class="setRestTime">
+      <p>Rest For</p>
+      <input class="restTime" type="number" value="5"/>
+      <p>Mins</p>
+    </div>
+  </div>
+  <div class="timerStart">
+    <button class="startButton">START</button>
+  </div>
+  <div class="timerPause">
+    <button class="pauseButton">PAUSE</button>
+  </div>
+  <div class="timerReset">
+    <button class="button">RESET</button>
+  </div>
+</div>
+
+<audio id="myAudio">
+  <source src="magic_immune.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<button onclick="play()" type="button">Meep Merp</button>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
